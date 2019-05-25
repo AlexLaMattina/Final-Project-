@@ -13,6 +13,10 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.control.cell.*?> 
+<?import javafx.collections.*?> 
+<?import fxmltableview.*?> 
+
 <BorderPane prefHeight="727.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.LoanCalcViewController">
    <top>
       <HBox alignment="CENTER" prefHeight="23.0" prefWidth="814.0" BorderPane.alignment="CENTER" />
@@ -55,6 +59,7 @@
                         <TextField fx:id="InterestRate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <TextField fx:id="NbrOfYears" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                         <DatePicker fx:id="PaymentStartDate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="AdditionalPayment" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
                      </children>
                   </GridPane>
                   <HBox prefHeight="152.0" prefWidth="88.0" />
